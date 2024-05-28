@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.BienvenidaActivity">
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/slider_bienvenida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:iss_auto_cycle="false"
+        app:iss_delay="3000"
+        app:iss_period="5000"
+        app:iss_selected_dot="@drawable/marcador_slider"
+        app:iss_text_align="CENTER"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:layout_width="292dp"
+        android:layout_height="311dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/slider_bienvenida" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_empezar"
+        android:onClick="clickEmpezar"
+        android:layout_width="380dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/btn_principal"
+        android:text="@string/empezar"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

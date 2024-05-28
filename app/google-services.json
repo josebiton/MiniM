@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "27130830913",
+    "project_id": "my-mkt-199d3",
+    "storage_bucket": "my-mkt-199d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27130830913:android:150e0d5761f9081cdfa6c0",
+        "android_client_info": {
+          "package_name": "com.task.otp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyfyM9lh0YGPEKPcqzh6UvsTCHvzYEfbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27130830913:android:d8feaf892bd5c59bdfa6c0",
+        "android_client_info": {
+          "package_name": "com.task.shopmarket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyfyM9lh0YGPEKPcqzh6UvsTCHvzYEfbY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

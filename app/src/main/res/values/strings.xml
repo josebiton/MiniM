@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Shop Market</string>
+
+    <!--Login and Register-->
+    <string name="login_Ingresar">Ingresar</string>
+    <string name="register_Registrar">Registrarse</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="otp_text">Ingrese el código enviado al</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="reenviar1">No recibiste el codigo?</string>
+    <string name="reenviar2">Reenviar</string>
+
+    <string name="empezar">Empezar</string>
+    <string name="bienvenida">Bienvenido a</string>
+    <string name="closebutton">Botón Cerrar la Actividad</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loginSMS">Bienvenido de Nuevo!</string>
+    <string name="mensaje">Iniciar sesión en su cuenta</string>
+    <string name="correo">Dirección de email</string>
+    <string name="passowrd">Contraseña</string>
+    <string name="Recuperar">Olvidaste tu contraseña?</string>
+    <string name="Sin_cuenta">No tienes una cuenta?</string>
+    <string name="Registrate">Regístrate</string>
+    <string name="imagen">Imagen</string>
+    <string name="show_pwd">Ver contraseña</string>
+    <string name="hide_pwd">Contraseña oculta</string>
+    <string name="registrate">Registrate</string>
+    <string name="mensaje2">Crear un cuenta rápidamente</string>
+    <string name="fullName">Usuario</string>
+    <string name="Registrarse">Registrarse</string>
+    <string name="Con_cuenta">Ya tienes una cuenta ?</string>
+
+    <string name="terminos_condiciones">Terminos y condiciones</string>
+    <string name="celular">Número de Celular</string>
+    <string name="Enviar">Enviar</string>
+    <string name="olvidado">Has olvidado tu contraseña</string>
+    <string name="mensaje3">Por favor ingrese su correo electrónico</string>
+
+    <!--// Titulos de Menú-->
+    <string name="home">Inicio</string>
+    <string name="user">Cuenta</string>
+    <string name="Todo">x</string>
+    <string name="todo">todo</string>
+    <string name="_1kg">1kg</string>
+    <string name="separacion">-</string>
+    <string name="s">S/.</string>
+    <string name="_precio">12</string>
+    <string name="_carr">Añadir al carrito</string>
+    <string name="producto">Producto</string>
+    <string name="_1">1</string>
+    <string name="aumentar">+</string>
+    <string name="buscar">Buscar</string>
+    <string name="categorias">Categorias</string>
+    <string name="productos">Productos\n</string>
+    <string name="acerca_de_m">Acerca de mí</string>
+    <string name="mis_ordenes">Mis ordenes</string>
+    <string name="tarjetas_de_cr_dito">Tarjetas de crédito</string>
+    <string name="mi_direcci_n">Mi dirección</string>
+    <string name="cerrar_sesi_n">Cerrar sesión</string>
+    <string name="_0">0</string>
+    <string name="carrito">Carrito</string>
+    <string name="x">X</string>
+
+    <string name="sub_total">Sub Total</string>
+    <string name="precio">S/ 00.00</string>
+    <string name="envio">Gastos de envío</string>
+    <string name="total">Total</string>
+    <string name="name_pro">Producto</string>
+    <string name="uni_medida">Medida</string>
+    <string name="marcador">0</string>
+    <string name="carrito_de_compras">Carrito de compras</string>
+    <string name="comprar">COMPRAR</string>
+    <string name="direccion_de_env_o">Direccion de envío</string>
+    <string name="direcc_on">Direccíon</string>
+    <string name="pago">Pago</string>
+    <string name="envio2">Envio</string>
+    <string name="m_todo_de_pago">Método de pago</string>
+    <string name="m_todo_de_env_o">Método de envío</string>
+    <string name="ejemploTex">Recoge tu pedido en nuestra tienda física</string>
+    <string name="env_o_est_ndar">Envío estándar</string>
+    <string name="dni">Dni</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="correo_electr_nico">Correo electrónico</string>
+    <string name="direcci_n">Dirección</string>
+    <string name="yape">Yape</string>
+    <string name="confirmar_pago">Confirmar Pago</string>
+    <string name="pago_con_yape">Pago con Yape</string>
+    <string name="pagar">Pagar</string>
+    <string name="compra_exitosa">Compra exitosa</string>
+    <string name="referecia">Referecia</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="descargar">Descargar</string>
+    <string name="monto_total_s_0_00">Monto Total: S/ 0.00</string>
+    <string name="descuento">Descuento %</string>
+    <string name="verifica_tu_n_mero">Verifica tu número</string>
+    <string name="recuperar_contrase_a">Recuperar Contraseña</string>
+    <string name="productos01">Productos</string>
+
+</resources>

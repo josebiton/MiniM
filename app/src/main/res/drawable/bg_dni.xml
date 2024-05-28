@@ -1,0 +1,22 @@
+<!-- drawable_rect_with_icon.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fondo del rectángulo -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorLink" />
+            <corners android:radius="10dp" />
+
+        </shape>
+    </item>
+
+    <!-- Icono en el centro -->
+    <item android:gravity="center">
+        <bitmap
+            android:src="@drawable/ic_buscar"
+            android:gravity="center"
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
+    </item>
+
+</layer-list>

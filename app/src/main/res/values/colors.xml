@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#AEDC81</color>
+    <color name="primaryDark">#6CC51D</color>
+    <color name="accent">#6CC51D</color>
+
+    <color name="background">#FFFFFF</color>
+    <color name="backgroundDark">#F4F5F9</color>
+
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#727272</color>
+    <color name="text_disabled">#9E9E9E</color>
+
+    <color name="alert_success">#AEDC81</color>
+    <color name="alert_warning">#FFC107</color>
+    <color name="alert_error">#F44336</color>
+    <color name="alert_info">#2196F3</color>
+
+    <color name="icon_primary">#868889</color>
+    <color name="colorLink">#407EC7</color>
+
+
+   <!-- Barra de estado-->
+    <color name="barraSuperior">#F4F5F9</color>
+
+
+    <color name="primaryLightColor">#EBFFD7</color>
+    <color name="backgroundLight">#F5F5F5</color>
+
+    <color name="selec">#AEAEDC81</color>
+
+</resources>
