@@ -1,7 +1,7 @@
 plugins {
     id("com.android.application")
     id("com.google.gms.google-services")
-    id("org.sonarqube") version "3.3" // Aplica el plugin de SonarQube local
+    id("org.sonarqube") version "3.3" // Aplica el plugin de SonarQube
 }
 
 android {
@@ -38,6 +38,11 @@ android {
     }
 }
 
+repositories {
+    google()
+    mavenCentral() // Cambiado de jcenter()
+}
+
 dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
@@ -69,11 +74,18 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }
 
+tasks.withType<AbstractCompile> {
+    destinationDirectory.set(file("$buildDir/classes/${name}"))
+}
+
 configure<org.sonarqube.gradle.SonarQubeExtension> {
     properties {
         property("sonar.projectKey", "ShopMarket")
         property("sonar.projectName", "ShopMarket")
         property("sonar.host.url", "http://localhost:9000")
         property("sonar.login", "sqp_32827696fd9fb87943bffc9a9ab48ea0d27dd103")
+        property("sonar.scm.provider", "git") // Definir el proveedor SCM
+        // Para desactivar el sensor SCM, usa la siguiente línea:
+        // property("sonar.scm.disabled", "true")
     }
 }
