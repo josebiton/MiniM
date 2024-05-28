@@ -16,7 +16,7 @@ pipeline {
             steps {
                 dir('checkout') {
                     withSonarQubeEnv('SonarQube') {
-                        bat './gradlew.bat --build-cache clean assembleDebug sonarqube'
+                        bat 'gradlew.bat sonar --warning-mode all -Dsonar.projectKey=ShopMarket -Dsonar.projectName="ShopMarket" -Dsonar.host.url=http://localhost:9000 -Dsonar.token=sqp_a9089595ff4aa93e25bcaae7f458a68fc6a58cc5'
                     }
                 }
             }
