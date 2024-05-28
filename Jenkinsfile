@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        ANDROID_HOME = 'C:\Users\biton\AppData\Local\Android\Sdk' // Asegúrate de que esta ruta sea correcta
+        ANDROID_HOME = 'D:\\path\\to\\android-sdk' // Asegúrate de que esta ruta sea correcta
     }
 
     stages {
