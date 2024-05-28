@@ -48,21 +48,21 @@ dependencies {
     implementation("androidx.navigation:navigation-ui:2.7.5")
     implementation("com.google.code.gson:gson:2.8.9")
 
-    implementation ("com.android.volley:volley:1.2.1")
-    implementation ("io.jsonwebtoken:jjwt:0.9.1")
+    implementation("com.android.volley:volley:1.2.1")
+    implementation("io.jsonwebtoken:jjwt:0.9.1")
 
     // Bottom Navigation
-    implementation ("com.google.zxing:core:3.4.1")
+    implementation("com.google.zxing:core:3.4.1")
 
     implementation(platform("com.google.firebase:firebase-bom:32.4.0"))
     implementation("com.google.firebase:firebase-auth")
 
-    implementation ("androidx.cardview:cardview:1.0.0")
-    implementation ("androidx.recyclerview:recyclerview:1.3.2")
-    implementation ("com.squareup.picasso:picasso:2.71828")
-    implementation ("de.hdodenhof:circleimageview:2.2.0")
-    implementation ("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation ("androidx.legacy:legacy-support-v4:1.0.0")
+    implementation("androidx.cardview:cardview:1.0.0")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+    implementation("com.squareup.picasso:picasso:2.71828")
+    implementation("de.hdodenhof:circleimageview:2.2.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    implementation("androidx.legacy:legacy-support-v4:1.0.0")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
