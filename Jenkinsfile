@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        ANDROID_HOME = '/path/to/android-sdk'
+        ANDROID_HOME = 'C:\Users\biton\AppData\Local\Android\Sdk' // Asegúrate de que esta ruta sea correcta
     }
 
     stages {
@@ -14,8 +14,10 @@ pipeline {
 
         stage('SonarQube analysis') {
             steps {
-                withSonarQubeEnv('SonarQube') {
-                    sh '/path/to/gradlew --build-cache clean assembleDebug sonarqube'
+                dir('checkout') {
+                    withSonarQubeEnv('SonarQube') {
+                        bat './gradlew.bat --build-cache clean assembleDebug sonarqube'
+                    }
                 }
             }
         }
@@ -23,8 +25,8 @@ pipeline {
 
     post {
         always {
-            junit 'app/build/test-results/**/*.xml'
-            archiveArtifacts 'app/build/outputs/**/*.apk'
+            junit 'checkout/app/build/test-results/**/*.xml'
+            archiveArtifacts 'checkout/app/build/outputs/**/*.apk'
             deleteDir()
         }
     }
